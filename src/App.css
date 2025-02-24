@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@media (width >= 96rem) {
+    .container {
+       max-width: 82rem;
+    }
+}
+.main-content{
+    min-height: 650px;
+}
+.sidebar .recent-popular-switcher li a.active{
+    background-color: brown ;
+    color: white;
+} 
